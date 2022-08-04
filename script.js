@@ -1,9 +1,15 @@
+function preventDefault() {
+    event.preventDefault();
+}
 
 function setActiveContent(el) {
     var contentBodies = document.getElementsByClassName('content-body');
 
     // remove .show-active from all elements
     // add .show-active back to clicked element
+    document.
+        getElementById(el.textContent.trim())
+        .classList.add('show-active');
 }
 
 function setActiveTab(el){
