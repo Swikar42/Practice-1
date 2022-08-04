@@ -6,6 +6,9 @@ function setActiveContent(el) {
     var contentBodies = document.getElementsByClassName('content-body');
 
     // remove .show-active from all elements
+    for (var contentBody of contentBodies) {
+        contentBody.classList.remove('show-active');
+    }
     // add .show-active back to clicked element
     document.
         getElementById(el.textContent.trim())
@@ -38,5 +41,8 @@ document.querySelector('.plus').addEventListener('click',()=>{
     document.querySelector('.input-quantity').value = `${quantityValue}`
 })
 document.querySelector('.minus').addEventListener('click',()=>{
+    if(quantityValue>1){
+        quantityValue = quantityValue - 1
+    }
     document.querySelector('.input-quantity').value = `${quantityValue}`
 })
