@@ -89,6 +89,9 @@ h2 {
 
 .quantity.buttons_added input {
     display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
 }
 
 .share {
