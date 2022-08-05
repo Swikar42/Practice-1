@@ -188,8 +188,8 @@ h2 {
 
 .place-image {
     display: flex;
+    justify-content: space-between;
 }
 .place-image > img {
     width: 30%;
-    margin: 3.33%;
 }
