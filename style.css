@@ -176,3 +176,20 @@ h2 {
     line-height: 1.3;
 }
 
+.you-may-also-like {
+    width: 100%;
+    height: 600px;
+}
+
+.bott-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.place-image {
+    display: flex;
+}
+.place-image > img {
+    width: 30%;
+    margin: 3.33%;
+}
